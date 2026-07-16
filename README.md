@@ -4,9 +4,11 @@
 
 A modern, responsive e-commerce platform built with vanilla HTML, CSS, and JavaScript. This project demonstrates a fully functional online storefront with product management, shopping cart functionality, and customer contact capabilities.
 
-🔗 **Live Demo:** [[Live](https://gauravstore.vercel.app)]  
-📂 **Repository:** [https://github.com/eclipse-dev3/Gaurav-Store](https://github.com/eclipse-dev3/Gaurav-Store)  
+🔗 **Live Demo:** [https://gauravstore.vercel.app](https://gauravstore.vercel.app)
+📂 **Repository:** [https://github.com/eclipse-dev3/Gaurav-Store](https://github.com/eclipse-dev3/Gaurav-Store)
 👤 **Author:** Gaurav Kumar
+
+> **Note:** This is a 100% frontend project — built with plain HTML, CSS, and JavaScript only. There is no backend or server-side code. Cart data persists using browser LocalStorage, and the contact form is a static form (not connected to a server).
 
 ## 📋 Table of Contents
 
@@ -28,15 +30,15 @@ A modern, responsive e-commerce platform built with vanilla HTML, CSS, and JavaS
 
 Gaurav Store is a comprehensive e-commerce web application designed to provide users with a seamless shopping experience. The platform features a responsive design, dynamic product loading, interactive shopping cart, and user-friendly navigation. Built entirely with vanilla JavaScript, it offers fast performance without heavy dependencies.
 
-**Store Name:** Gaurav Store  
-**Type:** E-Commerce Platform  
+**Store Name:** Gaurav Store
+**Type:** E-Commerce Platform (Frontend only, no backend)
 **Target Audience:** Electronics & Tech Accessories Shoppers
 
 ## ✨ Features
 
 ### 🏠 Home Page
 - **Hero Section** with promotional messaging
-- **Dynamic Product Catalog** loaded from JSON API
+- **Dynamic Product Catalog** loaded from a local JSON file
 - **Interactive Product Cards** featuring:
   - Product images and descriptions
   - Real-time price display with discount calculation
@@ -55,7 +57,7 @@ Gaurav Store is a comprehensive e-commerce web application designed to provide u
 
 ### 🛒 Shopping Cart
 - **Cart Summary Page** displaying all added items
-- **LocalStorage Integration** for persistent cart data
+- **LocalStorage Integration** for persistent cart data (client-side only)
 - **Item Management** with:
   - Quantity adjustment controls
   - Remove item functionality
@@ -67,7 +69,7 @@ Gaurav Store is a comprehensive e-commerce web application designed to provide u
 - **Continue Shopping** functionality
 
 ### 📞 Contact Page
-- **Contact Form** for customer inquiries
+- **Contact Form** for customer inquiries (static, frontend-only — not wired to a backend)
 - **Google Maps Embed** for store location
 - **Responsive Contact Layout**
 
@@ -91,7 +93,7 @@ ecomerse/
 ├── ecomerse.js                # Main application logic
 ├── cartpage.js                # Cart page functionality
 ├── api/
-│   └── products.json          # Product database
+│   └── products.json          # Product database (static JSON, no server)
 ├── assets/
 │   └── images/                # All images and icons
 │       ├── Gaurav_store.png   # Logo
@@ -113,7 +115,7 @@ ecomerse/
 - **Frontend:** HTML5, CSS3, JavaScript (ES6+)
 - **Icons:** Font Awesome 6.7.2
 - **Storage:** Browser LocalStorage API
-- **API:** JSON-based product data
+- **Data:** Static JSON file (no backend/API server)
 - **Responsive Design:** CSS Media Queries
 - **Styling:** Custom CSS with modern practices
 
@@ -172,7 +174,7 @@ Visit `http://localhost:8080` in your browser.
 ### Option 4: Direct File Opening (Not Recommended)
 - Locate `index.html` in your file explorer
 - Double-click to open in your browser
-- **Note:** Product data may not load due to CORS restrictions
+- **Note:** Product data may not load due to CORS restrictions when opening files directly
 
 ## 📖 Usage Guide
 
@@ -208,7 +210,7 @@ Visit `http://localhost:8080` in your browser.
 1. Navigate to the **Contact** page from the main navigation
 2. Fill out the contact form with your inquiry
 3. View the store location on the embedded map
-4. Submit your message (if backend is configured)
+4. (Form is static/demo only — no backend is connected to receive submissions)
 
 ## 🛍 Product Catalog
 
@@ -239,7 +241,7 @@ All prices are in Indian Rupees (₹). Products are sourced from the `api/produc
 
 ### JavaScript Files
 - **ecomerse.js** - Main application logic handling:
-  - Product fetching from JSON API
+  - Product fetching from the local JSON file
   - DOM manipulation and rendering
   - Cart operations (add/remove/update)
   - LocalStorage cart persistence
@@ -252,8 +254,8 @@ All prices are in Indian Rupees (₹). Products are sourced from the `api/produc
   - Item removal
   - Total price calculations
 
-### API & Data
-- **api/products.json** - JSON database containing:
+### Data
+- **api/products.json** - Static JSON file containing:
   - Product ID, name, category
   - Pricing (regular and discounted)
   - Stock quantity
@@ -293,6 +295,7 @@ localStorage.removeItem('cart');
 
 ## 🚀 Future Enhancements
 
+- [ ] **Backend Integration** - Add a real server (Node.js/Express) for orders and contact form
 - [ ] **User Authentication System** - Login/Register functionality
 - [ ] **Payment Gateway Integration** - Razorpay/Stripe integration
 - [ ] **Order Management** - Order history and tracking
@@ -301,7 +304,6 @@ localStorage.removeItem('cart');
 - [ ] **Reviews & Ratings** - Customer review system
 - [ ] **Wishlist Feature** - Save favorite products
 - [ ] **Admin Dashboard** - Product management interface
-- [ ] **Inventory Management** - Real-time stock updates
 - [ ] **Multi-language Support** - International localization
 
 ## 🤝 Contributing
@@ -325,14 +327,13 @@ This project is open source and available under the MIT License. See LICENSE fil
 For questions, bug reports, or feature requests:
 - Visit the Contact page in the application
 - Create an issue in the repository
-- Reach out via email (configure in contact.html)
 
 ## 🔗 Connect With Me
 
 - **GitHub:** [https://github.com/eclipse-dev3](https://github.com/eclipse-dev3)
-- **LinkedIn:** [[LinkedIn](https://www.linkedin.com/in/gaurav-kumar-5b678437a/)]
-- **Portfolio:** [[Portfolio](https://gauravk.vercel.app/)]
-- **Twitter/X:** [[Twitter/X](https://x.com/eclipse_devX)]
+- **LinkedIn:** [https://www.linkedin.com/in/gaurav-kumar-5b678437a/](https://www.linkedin.com/in/gaurav-kumar-5b678437a/)
+- **Portfolio:** [https://gauravk.vercel.app/](https://gauravk.vercel.app/)
+- **Twitter/X:** [https://x.com/eclipse_devX](https://x.com/eclipse_devX)
 
 ---
 
