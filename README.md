@@ -4,6 +4,10 @@
 
 A modern, responsive e-commerce platform built with vanilla HTML, CSS, and JavaScript. This project demonstrates a fully functional online storefront with product management, shopping cart functionality, and customer contact capabilities.
 
+🔗 **Live Demo:** [[Live](https://gauravstore.vercel.app)]  
+📂 **Repository:** [https://github.com/eclipse-dev3/Gaurav-Store](https://github.com/eclipse-dev3/Gaurav-Store)  
+👤 **Author:** Gaurav Kumar
+
 ## 📋 Table of Contents
 
 - [Overview](#overview)
@@ -18,6 +22,7 @@ A modern, responsive e-commerce platform built with vanilla HTML, CSS, and JavaS
 - [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
 - [License](#license)
+- [Connect With Me](#connect-with-me)
 
 ## Overview
 
@@ -239,7 +244,7 @@ All prices are in Indian Rupees (₹). Products are sourced from the `api/produc
   - Cart operations (add/remove/update)
   - LocalStorage cart persistence
   - Event listeners for user interactions
-  
+
 - **cartpage.js** - Cart page functionality managing:
   - Cart data retrieval from LocalStorage
   - Cart item rendering
@@ -322,38 +327,15 @@ For questions, bug reports, or feature requests:
 - Create an issue in the repository
 - Reach out via email (configure in contact.html)
 
+## 🔗 Connect With Me
+
+- **GitHub:** [https://github.com/eclipse-dev3](https://github.com/eclipse-dev3)
+- **LinkedIn:** [[LinkedIn](https://www.linkedin.com/in/gaurav-kumar-5b678437a/)]
+- **Portfolio:** [[Portfolio](https://gauravk.vercel.app/)]
+- **Twitter/X:** [[Twitter/X](https://x.com/eclipse_devX)]
+
 ---
 
-**Made with ❤️ by Gaurav Store Team**
+**Made with ❤️ by Gaurav Kumar**
 
 *Last Updated: July 2026*
-
-- Install the Live Server extension
-- Open the project folder in VS Code
-- Right-click `ecomerse.html` and select **Open with Live Server**
-
-### Option 2: Simple local server (Python)
-
-From the project root:
-
-```bash
-python -m http.server 8000
-```
-
-Then open `http://localhost:8000/ecomerse.html` in your browser.
-
-## Notes
-
-- The cart uses `localStorage` to keep products between pages.
-- The contact form is a static HTML form and does not submit to a backend.
-- The current theme button is a UI element placeholder and may require implementation.
-
-## Improvements
-
-Possible enhancements include:
-
-- Add user authentication and sign-in workflow.
-- Build a real checkout/payment integration.
-- Add product search and filtering.
-- Improve responsive styling for mobile displays.
-- Implement dark mode toggle functionality.
