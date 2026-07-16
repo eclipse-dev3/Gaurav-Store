@@ -1,0 +1,417 @@
+.alflx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flx {
+    display: flex;
+}
+
+.flxcol {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.flxcol a {
+    color: #ffffffce;
+    font-size: 14px;
+    list-style: none;
+    padding: 5px 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.aflx {
+    display: flex;
+    align-items: center;
+}
+
+.jflx {
+    display: flex;
+    justify-content: center;
+}
+
+.jbflx {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    position: relative;
+    background-image: linear-gradient(to top right, #3d86fa, #4484fb, #6793ff, #b3d2ff, #ebfefe);
+}
+
+img {
+    cursor: pointer;
+}
+
+i,
+button {
+    cursor: pointer;
+}
+
+/* For wave effoct */
+
+.custom-shape-divider-bottom-1741335035 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1741335035 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+}
+
+.custom-shape-divider-bottom-1741335035 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+
+
+/* for theme change */
+
+#theme {
+    background-color: #2a2c30;
+    border: none;
+    outline: none;
+    width: 30px;
+}
+
+#theme img {
+    width: 12px;
+}
+
+
+
+.section13 {
+    margin: 20px 0 0 0;
+    width: 100%;
+    height: 190px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.border_sec {
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    border-top: 1px solid rgb(209, 209, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.end {
+    margin: -10px 0 0 0;
+    display: flex;
+    gap: 3px;
+}
+
+.end p,
+a {
+    font-size: 12px;
+}
+
+.border_sec h1 {
+    padding: 40px 0 0 0;
+}
+
+.back_to_top {
+    height: 50px;
+    line-height: 50px;
+    background-color: #3c4b61;
+    color: #fff;
+    text-align: center;
+}
+
+.back_to_top a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.section14 {
+    width: 100%;
+    height: 170px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #232F3E;
+}
+
+.content1 {
+    width: 1000px;
+    height: 295px;
+    display: flex;
+    justify-content: center;
+}
+
+.boxx {
+    height: 295px;
+}
+
+.boxx1 {
+    width: 131.2px;
+}
+
+.boxx2 {
+    width: 100.2px;
+}
+
+.boxx3 {
+    width: 138.2px;
+}
+
+.boxx4 {
+    width: 100.2px;
+}
+
+.boxx5 {
+    width: 208.2px;
+}
+
+.boxx6 {
+    width: 100.2px;
+}
+
+.boxx7 {
+    width: 223.2px;
+}
+
+.boxx h3 {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.boxx ul li {
+    color: #ffffffce;
+    font-size: 14px;
+    list-style: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+.section15 {
+    background-color: #232F3E;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgba(209, 209, 209, 0.148);
+}
+
+.A_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.A_img img {
+    width: 105px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.leng_box {
+    width: 236.5px;
+    height: 33px;
+    margin: auto auto auto 63px;
+    display: flex;
+}
+
+.english_box {
+    width: 120px;
+    height: 33px;
+    border: 1px solid rgba(255, 255, 255, 0.457);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.english_box i {
+    color: #ffffff7e;
+    margin: auto 0 auto 7px;
+}
+
+.eglish {
+    color: #ffffffb3;
+    font-size: 14px;
+    margin: 0 18px 0 10px;
+}
+
+.up_down i {
+    color: #7d7d7dd9;
+    font-size: 11px;
+
+}
+
+.country_box {
+    width: 95px;
+    height: 33px;
+    border: 1px solid rgba(255, 255, 255, 0.459);
+    border-radius: 3px;
+    margin: auto auto auto 7px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.first_btn button {
+    border: none;
+    padding: 10px 40px;
+    border-radius: 25px;
+    background-color: rgb(255, 221, 0);
+    margin: 7px 0 15px 0;
+    width: 199.5px;
+    height: 32px;
+}
+
+.country_box img {
+    width: 25px;
+    height: 20px;
+    margin: auto 8px auto 5px;
+}
+
+.ind {
+    color: #ffffffb3;
+    font-size: 14px;
+}
+
+.section16 {
+    width: 100%;
+    height: 100px;
+    background-color: #131A22;
+    border: 1px solid #00000000;
+}
+
+.content_sec16 {
+    width: 100%;
+    height: 70px;
+    margin: 30px 0 0 0;
+}
+
+.boooxes {
+    width: 100%;
+    display: flex;
+}
+
+.boooxes2 {
+    width: 100%;
+    display: flex;
+}
+
+.booox {
+    height: 40.4px;
+    margin-bottom: 15px;
+}
+
+.boox1 {
+    width: 150px;
+    margin: 0 0 0 131.667px;
+}
+
+.boox2 {
+    width: 40px;
+}
+
+.boox3 {
+    width: 150px;
+}
+
+.boox4 {
+    width: 40px;
+}
+
+.boox5 {
+    width: 150px;
+}
+
+.boox6 {
+    width: 40px;
+}
+
+.boox7 {
+    width: 150px;
+}
+
+.booox p {
+    font-size: 12px;
+    margin-left: 9px;
+    color: #ffffffe7;
+}
+
+.booox ul li {
+    margin: 0 0 0px 9px;
+    font-size: 11.5px;
+    font-weight: 700;
+    list-style: none;
+    color: #ffffff80;
+}
+
+.boox8 {
+    height: 67px;
+}
+
+.section_last {
+    width: 100%;
+    background-color: #131A22;
+    border: 1px solid #ffffff00;
+    padding-bottom: 20px;
+}
+
+.fst_txt {
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    color: #ffffffd0;
+    font-size: 12px;
+}
+
+.scnd_txt {
+    color: #ffffffd0;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.section_last {
+    width: 100%;
+    background-color: #131A22;
+}
+
+.fst_txt {
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    color: #ffffffc4;
+    font-size: 12px;
+}
+
+.scnd_txt {
+    margin-top: 3px;
+    color: #ffffffc4;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.fst1 {
+    padding: 0 8px;
+}

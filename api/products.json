@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Laptop",
+        "category": "Computers",
+        "price": 39999,
+        "fakePrice": 50999.99,
+        "stocks": 50,
+        "description": "Powerful Laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
+        "image": "./assets/images/lapi.png"
+    },
+    {
+        "id": 2,
+        "name": "Smartphone",
+        "category": "Mobile",
+        "price": 9999,
+        "fakePrice": 21000.99,
+        "stocks": 100,
+        "description": "Feature-rich smartphone with a 6.2-inch screen, 12MP dual camera, 128GB storage, and a4000mAh battery.",
+        "image": "./assets/images/iphone.png"
+    },
+    {
+        "id": 3,
+        "name": "Wireless Headphones",
+        "category": "Audio",
+        "price": 599,
+        "fakePrice": 1299.99,
+        "stocks": 70,
+        "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color.",
+        "image": "./assets/images/headphone (1).png"
+    },
+    {
+        "id": 4,
+        "name": "Speakers",
+        "category": "Audio",
+        "price": 3999,
+        "fakePrice": 5999.99,
+        "stocks": 30,
+        "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color.",
+        "image": "./assets/images/speakers.png"
+    },
+    {
+        "id": 5,
+        "name": "Watches",
+        "category": "Wearables",
+        "price": 599,
+        "fakePrice": 1299.99,
+        "stocks": 20,
+        "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color.",
+        "image": "./assets/images/watch.png"
+    },
+    {
+        "id": 6,
+        "name": "Television",
+        "category": "Video",
+        "price": 9999,
+        "fakePrice": 15999.99,
+        "stocks": 20,
+        "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color.",
+        "image": "./assets/images/tv.png"
+    }
+]
